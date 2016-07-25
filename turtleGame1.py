@@ -1,5 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding utf-8 -*-
+"""
+    Title: A simple Turtle demo
+    Created: 25-07-16
+    Authors: Jonas Solsvik
+
+    Description:
+         A turtle object is in many ways like any game object. It has many attributes which
+          can be changed. Speed, color, shape, size, and much much more. It can also copy itself.
+           Therefore the turtle-library can be used to create experimental and educational
+            games. Bear in mind that the simplicity of the turtle library hurts its performance
+             considerabily. Therefore is is seen as a stepping stone to other more powerful low-level
+              libraries such as openGl, Vulkan and DirectX12
+    -------------------------------------- Jonas -------------------- """
 
 from turtle import Turtle, Screen
 
