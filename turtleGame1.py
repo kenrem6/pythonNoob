@@ -9,11 +9,13 @@ tut1 = Turtle()
 tut2 = Turtle()
 
 # --- INIT turtles ---
+tut1.speed(1)
 tut1.penup()
 tut1.shape("circle")
 tut1.shapesize(5)
 tut1.color("red")
 
+tut2.speed(1)
 tut2.penup()
 tut2.shape("square")
 tut2.shapesize(5)
